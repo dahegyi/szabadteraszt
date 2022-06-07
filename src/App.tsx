@@ -10,9 +10,7 @@ import "./App.scss";
 function App() {
   const [rangeValue, setRangeValue] = useState("500");
 
-  const [cms]: any = useSinglePrismicDocument("szabadteraszt", {
-    lang: "hu",
-  });
+  const [cms]: any = useSinglePrismicDocument("szabadteraszt");
   const cmsData = cms?.data;
 
   useEffect(() => {
