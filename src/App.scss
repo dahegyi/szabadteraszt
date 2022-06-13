@@ -17,14 +17,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 24px;
   letter-spacing: 0.4px;
 }
 
-.text-center,
-.accordion-header,
-.email {
+.font-compactca {
   font-family: Compactca;
+  font-size: 24px;
 }
 
 h1 {
@@ -136,7 +134,6 @@ figure {
 
   &-body {
     padding: 1rem 1.25rem 0;
-    font-size: 16px;
   }
 }
 
